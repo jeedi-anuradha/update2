@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./loginSuccess.html" method="get">
+        <label for="name">user name</label><br>
+        <input type="text"  id="name" name="Username" required pattern="[a-z]{4,9}" title="the length should be minimum 4 small letters and max 9 small letter"><br><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="Password" id="password" required pattern="[a-zA-Z\d@$!-]{4,9}" title="the length should be minimum 4 and max 9,use only small ,capital,numbers and(@,$,!,-) "><br> <br>
+        <a href="./loginSuccess.html" target="_blank">
+            <input type="submit" value="Login">
+        </a><br><br>
+        </form>
+        <form action="./forgot.html" method="get" >
+        <a href="./forgot.html" target="_blank">
+            <input type="submit" value="Forgot">
+        </a><br><br>
+        </form>
+        <form action="./register.html">
+            <a href="./register.html" target="_blank">
+                <input type="submit" value="Register">
+            </a>
+        </form>
+        
+
+    </form>
+</body>
+</html>
